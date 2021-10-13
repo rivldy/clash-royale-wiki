@@ -2,6 +2,7 @@ import Head from "next/head"
 
 // Components
 import Navbar from "../components/Navbar"
+import Hero from "../components/Hero"
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar clans />
-      <h1 className="text-6xl font-bold">Hello World!</h1>
+      <Navbar />
+      <Hero />
     </>
   )
 }

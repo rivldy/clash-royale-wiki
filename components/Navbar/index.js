@@ -31,7 +31,7 @@ export default function Navbar({ cards, clans, players }) {
 
   return (
     <nav>
-      <header className="bg-cr-blue w-screen py-4 sm:py-6 relative z-20">
+      <header className="bg-cr-blue fixed inset-x-0 top-0 py-4 sm:py-6 z-30">
         <div className="container flex justify-between items-center">
           <Link href="/">
             <a className="text-2xl sm:text-3xl font-semibold text-white">

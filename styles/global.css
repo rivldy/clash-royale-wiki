@@ -3,3 +3,11 @@
 body {
   @apply font-titillium text-white;
 }
+
+#mobile-menu {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}

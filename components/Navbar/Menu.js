@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Menu({ navLinks }) {
   return (
-    <ul className="space-x-6 hidden sm:flex flex-row">
+    <ul className="space-x-6 hidden sm:flex">
       {navLinks.map((link) => (
         <li
           key={link.id}
